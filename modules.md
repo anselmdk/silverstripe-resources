@@ -27,3 +27,8 @@
 | [GridFieldRelationHandler](https://github.com/simonwelsh/silverstripe-GridFieldRelationHandler) | |
 | Modules for snippets | [PageWidgets](https://github.com/dimension27/silverstripe-pagewidgets) [Silverstripe Tools](https://github.com/dimension27/silverstripe-tools)|
 | [Twitter Feed](https://github.com/tylerkidd/silverstripe-twitter-feed) | |
+
+
+##TODOS
+
+Divide into sub categories, e.g. _General_, _GridField_, _Webapps_, _Utilities_...
