@@ -4,6 +4,8 @@ A collection of resources for Silverstripe 3:
 
 * [Modules](modules.md)
 * [Resources](resources.md)
+* Topics
+  * [Emailing](topics/emailing.md)
 
 
 **Please Contribute!**
