@@ -29,6 +29,13 @@
 | [Twitter Feed](https://github.com/tylerkidd/silverstripe-twitter-feed) | |
 
 
+## Images
+
+| Module | Notes |
+|:---|:---|
+| [Retina Images](https://github.com/dospuntocero/RetinaImages) | |
+
+
 ##TODOS
 
 Divide into sub categories, e.g. _General_, _GridField_, _Webapps_, _Utilities_...
