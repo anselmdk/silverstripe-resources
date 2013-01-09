@@ -16,6 +16,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Slideshow](https://github.com/dospuntocero/Slideshow) | Slideshow module for ss3 based on jQuery Cycle plugin. |
 | [Dashboard](https://github.com/unclecheese/silverstripe-dashboard) | The Dashbaord module provides a splash page for the CMS in SilverStripe 3 with configurable widgets that display relevant information. |
 | [Event Calendar](https://github.com/unclecheese/EventCalendar) | |
+| [Polls](https://github.com/mateusz/silverstripe-polls) | |
 
 ## Backend
 
@@ -38,6 +39,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Subsites](https://github.com/silverstripe/silverstripe-subsites) | |
 | [Widgets](https://github.com/silverstripe/silverstripe-widgets) | Previously I've used other branches, but it seems, this one is the current now |
 | ShortCodes | Don't forget these. See this [tutorial](http://www.ssbits.com/tutorials/2010/2-4-using-short-codes-to-embed-a-youtube-video/) (for SS 2.4), and this [module](https://github.com/cwsoft/silverstripe-cwsoft-shortcode) (a collection of ShortCodes for SS3). |
+| [Sitemap](https://github.com/ajshort/silverstripe-sitemap) | Works with SS3 though the Readme says 2.x |
 
 
 ### Multi Language Sites
@@ -83,6 +85,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | Module | Notes |
 |:---|:---|
 | [Twitter Feed](https://github.com/tylerkidd/silverstripe-twitter-feed) | |
+| [Vimeo Service](https://github.com/anselmdk/Silverstripe-Vimeo-Service-module/commits/ss3) | |
 
 
 ## Utilities
