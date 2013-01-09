@@ -5,7 +5,7 @@
 | [Genericviews](https://github.com/chillu/silverstripe-genericviews) | Generic frontend editing of `DataObjects` |
 | [SortableGridField](https://github.com/UndefinedOffset/SortableGridField) | GridField extension |
 | ShortCodes | Don't forget these. See this [tutorial](http://www.ssbits.com/tutorials/2010/2-4-using-short-codes-to-embed-a-youtube-video/) (for SS 2.4), and this [module](https://github.com/cwsoft/silverstripe-shortcode) (a collection of ShotCodes for SS3). |
-| Galleries | [Foldergallery module for SS3](https://github.com/cwsoft/silverstripe-foldergallery), Frank Mullenger's [Simple Gallery](https://github.com/frankmullenger/silverstripe-simplegallery), [DisplayAnything3](https://github.com/codem/DisplayAnything3)  |
+| Galleries | [Foldergallery module for SS3](https://github.com/cwsoft/silverstripe-cwsoft-foldergallery), Frank Mullenger's [Simple Gallery](https://github.com/frankmullenger/silverstripe-simplegallery), [DisplayAnything3](https://github.com/codem/DisplayAnything3)  |
 | [Slideshow](https://github.com/dospuntocero/Slideshow) | By Francisco |
 | [Markdowneditorfield](https://github.com/wolfv/silverstripe-markdowneditorfield) | |
 | [Serverstatus](https://github.com/amoebas/silverstripe-serverstatus) | |
