@@ -17,7 +17,9 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Dashboard](https://github.com/unclecheese/silverstripe-dashboard) | The Dashbaord module provides a splash page for the CMS in SilverStripe 3 with configurable widgets that display relevant information. |
 | [Event Calendar](https://github.com/unclecheese/EventCalendar) | |
 | [Polls](https://github.com/mateusz/silverstripe-polls) | |
-
+| [iFrame](https://github.com/silverstripe-labs/silverstripe-iframe) | Add an iFrame pagetype to SilverStripe, to show content from another website |
+| [Memberprofiles](https://github.com/ajshort/silverstripe-memberprofiles) | A module to allow the creation of registration and profile management pages with custom fields and validation. |
+| [News](https://github.com/nyeholt/silverstripe-news) | A basic news article module, including page types and functionality common to a news archive  |
 ## Backend
 
 ### GridField
@@ -29,6 +31,13 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [GridFieldBulkEditingTools](https://github.com/colymba/GridFieldBulkEditingTools) | SilverStripe 3 GridField component set to facilitate bulk image upload, bulk record editing, unlinking and deleting. |
 | [SortableGridField](https://github.com/UndefinedOffset/SortableGridField) | Adds drag and drop functionality to SilverStripe 3's GridField |
 | [Blog-extension](https://github.com/tylerkidd/silverstripe-blog-extension) by Tyler | This "module" just extends the blog module and decorates the BlogEntry and BlogHolder models to allow managing your blog with the GridField instead of pages - even though they're still pages. |
+| [GridfieldAjaxRefresh](https://github.com/silverstripe-labs/silverstripe-gridfieldajaxrefresh) | Adds the ability to either automatically or manually refresh a SilverStripe GridField |
+
+### Other
+
+| Module | Notes |
+|:---|:---|
+| [Newsletter](https://github.com/silverstripe-labs/silverstripe-newsletter) | See also [Newsletter Emogrify](https://packagist.org/packages/silverstripe/newsletter_emogrify), and [Newsletter, view archive](https://packagist.org/packages/silverstripe/newsletter_viewarchive)|
 
 
 ## Core Functionality Extension
@@ -36,10 +45,20 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 
 | Module | Notes |
 |:---|:---|
-| [Subsites](https://github.com/silverstripe/silverstripe-subsites) | |
 | [Widgets](https://github.com/silverstripe/silverstripe-widgets) | Previously I've used other branches, but it seems, this one is the current now |
 | ShortCodes | Don't forget these. See this [tutorial](http://www.ssbits.com/tutorials/2010/2-4-using-short-codes-to-embed-a-youtube-video/) (for SS 2.4), and this [module](https://github.com/cwsoft/silverstripe-cwsoft-shortcode) (a collection of ShortCodes for SS3). |
 | [Sitemap](https://github.com/ajshort/silverstripe-sitemap) | Works with SS3 though the Readme says 2.x |
+| [Google Sitemaps](https://github.com/silverstripe-labs/silverstripe-googlesitemaps) | |
+| [Versioned Files](https://github.com/ajshort/silverstripe-versionedfiles) | A module to allow for the replacement and version management of asset files |
+| REST | [Restfulserver](https://github.com/silverstripe/silverstripe-restfulserver) and [Restassured](https://github.com/silverstripe-labs/restassured) |
+
+
+### Subsites
+
+| Module | Notes |
+|:---|:---|
+| [Subsites](https://github.com/silverstripe/silverstripe-subsites) | The official subsites module |
+| [Multisites](https://github.com/sheadawson/silverstripe-multisites) | Allows for multiple websites to be managed through a single site tree, an alternative module to the Subsites module. |
 
 
 ### Multi Language Sites
@@ -59,6 +78,21 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Markdowneditorfield](https://github.com/wolfv/silverstripe-markdowneditorfield) | |
 | [HTMLField](https://github.com/timonr/silverstripe-htmlfield-module) (2.x) |  |
 | [Bootstrap Forms](https://github.com/unclecheese/silverstripe-bootstrap-forms) | Allows the creation of forms compatible with the Twitter Bootstrap CSS framework in SilverStripe |
+| [MultiValueField](https://github.com/nyeholt/silverstripe-multivaluefield) | A fieldtype that makes it possible to store arrays of data (serialised) in the DB. Useful if you have many fields that you don't want to normalise out over many joins |
+| [QuickAddNew](https://github.com/sheadawson/silverstripe-quickaddnew) | A decorator for a form field that manages as has_one relation, to allow adding a new object on the fly |
+| [TimepickerField](https://github.com/sheadawson/silverstripe-timepickerfield) | A time picker field based on jQuery UI Timepicker |
+| [Select2](https://github.com/sheadawson/silverstripe-select2) | Form field based on [select2](http://ivaynberg.github.com/select2/), which is an extension of the Chosen dropdown|
+| [Tagfield](https://github.com/chillu/silverstripe-tagfield) | |
+
+
+### Spam Protection
+
+| Module | Notes |
+|:---|:---|
+| [Spamprotection](https://github.com/silverstripe/silverstripe-spamprotection) | |
+| [Recaptcha](https://github.com/chillu/silverstripe-recaptcha) | |
+
+
 
 
 ## Extensions
@@ -95,13 +129,27 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Silverstripe Tools](https://github.com/dimension27/silverstripe-tools) | Misc tools, including `BetterImage`, `FAQPage`, `StyledEmail` and `YoutubeShortCode` |
 | [Serverstatus](https://github.com/amoebas/silverstripe-serverstatus) | |
 | Emailing | Silverstripe core mailing is a little clunky (see [ticket](http://open.silverstripe.org/ticket/3427)), [SMTP Mailer module](https://github.com/xeraa/silverstripe-smtp), [Mailer](https://github.com/fullscreeninteractive/silverstripe-postmarkmailer) for [Postmark](http://postmarkapp.com), [Testmailer](https://github.com/sunnysideup/silverstripe-testmailer) _(forked by me)_, [Inline Styles Emailing](https://github.com/burnbright/silverstripe-inlinestylesemail) module, [Logging mailer](https://github.com/natmchugh/loggingmailer) _(I might have some improvements for this from the PHH app)_ |
+| [Framework Test](https://github.com/silverstripe-labs/silverstripe-frameworktest) | Aids core and module developers in testing their code against a set of sample data and behaviour. |
+| [Silverstripe Ipsum](https://github.com/sheadawson/silverstripe-ipsum) | A lorem ipsum text generator built on SilverStripe 3 |
 
-## Webapps
+## Ecommerce
+
+| Module | Notes |
+|:---|:---|
+| [Payment](https://github.com/silverstripe-labs/silverstripe-payment) | |
+
+
+
+
+
+## Complete Systems (Sites/Webapps)
 
 | Module | Notes |
 |:---|:---|
 | [SilverTicket](https://github.com/cam-findlay/silvertripe-silverticket) | |
 | [SilverTwit](https://github.com/silverstripe-australia/silvertwit) | An entire project. Probably some good examples on a SS3 web app |
+| [DMS](https://github.com/silverstripe-labs/silverstripe-dms) | Document Management System|
+| [Silverstripe Express](https://packagist.org/packages/silverstripe/express) | |
 
 
 ## Candidates for SS3 Upgrade
