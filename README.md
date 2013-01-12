@@ -2,10 +2,10 @@
 
 A collection of resources for Silverstripe 3:
 
-* [Modules](modules.md)
-* [Resources](resources.md)
+* [Modules](https://github.com/anselmdk/ss3-resources/blob/master/modules.md)
+* [Resources](https://github.com/anselmdk/ss3-resources/blob/master/resources.md)
 * Topics
-  * [Emailing](topics/emailing.md)
+  * [Emailing](https://github.com/anselmdk/ss3-resources/blob/master/topics/emailing.md)
 
 
 **Please Contribute!**
