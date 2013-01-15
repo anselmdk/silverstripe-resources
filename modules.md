@@ -89,11 +89,20 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Markdowneditorfield](https://github.com/wolfv/silverstripe-markdowneditorfield) | |
 | [HTMLField](https://github.com/timonr/silverstripe-htmlfield-module) (2.x) |  |
 | [Bootstrap Forms](https://github.com/unclecheese/silverstripe-bootstrap-forms) | Allows the creation of forms compatible with the Twitter Bootstrap CSS framework in SilverStripe |
+| [Foundation Forms](https://github.com/ryanwachtl/silverstripe-foundation-forms) | SilverStripe 3 Forms Compatible with Zurb Foundation Framework |
 | [MultiValueField](https://github.com/nyeholt/silverstripe-multivaluefield) | A fieldtype that makes it possible to store arrays of data (serialised) in the DB. Useful if you have many fields that you don't want to normalise out over many joins |
 | [QuickAddNew](https://github.com/sheadawson/silverstripe-quickaddnew) | A decorator for a form field that manages as has_one relation, to allow adding a new object on the fly |
 | [TimepickerField](https://github.com/sheadawson/silverstripe-timepickerfield) | A time picker field based on jQuery UI Timepicker |
 | [Select2](https://github.com/sheadawson/silverstripe-select2) | Form field based on [select2](http://ivaynberg.github.com/select2/), which is an extension of the Chosen dropdown|
 | [Tagfield](https://github.com/chillu/silverstripe-tagfield) | |
+
+
+### Starter Themes
+
+| Module | Notes |
+|:---|:---|
+| [Silverstripe Foundation](https://github.com/ryanwachtl/silverstripe-foundation) | A SilverStripe theme based on Foundation by Ryan Wachtl. I imageine this being good together with his [Foundation Forms](https://github.com/ryanwachtl/silverstripe-foundation-forms) module and his [Foundation Blog](https://github.com/ryanwachtl/silverstripe-foundation-blog) templates|
+
 
 
 ### Spam Protection
