@@ -20,6 +20,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [iFrame](https://github.com/silverstripe-labs/silverstripe-iframe) | Add an iFrame pagetype to SilverStripe, to show content from another website |
 | [Memberprofiles](https://github.com/ajshort/silverstripe-memberprofiles) | A module to allow the creation of registration and profile management pages with custom fields and validation. |
 | [News](https://github.com/nyeholt/silverstripe-news) | A basic news article module, including page types and functionality common to a news archive  |
+| [Contact Form](https://github.com/bluehousegroup/silverstripe-contact-form) | By Uncle Cheese/Bluehouse Group |
 
 
 ## Third Party Integrations
