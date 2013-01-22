@@ -88,7 +88,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | Module | Notes |
 |:---|:---|
 | [Markdowneditorfield](https://github.com/wolfv/silverstripe-markdowneditorfield) | |
-| [HTMLField](https://github.com/timonr/silverstripe-htmlfield-module) (2.x) |  |
+| [HTMLField](https://github.com/timonr/silverstripe-htmlfield-module) | A CodeMirror-powered HTML field |
 | [Bootstrap Forms](https://github.com/unclecheese/silverstripe-bootstrap-forms) | Allows the creation of forms compatible with the Twitter Bootstrap CSS framework in SilverStripe |
 | [Foundation Forms](https://github.com/ryanwachtl/silverstripe-foundation-forms) | SilverStripe 3 Forms Compatible with Zurb Foundation Framework |
 | [MultiValueField](https://github.com/nyeholt/silverstripe-multivaluefield) | A fieldtype that makes it possible to store arrays of data (serialised) in the DB. Useful if you have many fields that you don't want to normalise out over many joins |
