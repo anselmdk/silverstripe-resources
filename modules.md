@@ -80,7 +80,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Translateable](https://github.com/silverstripe/silverstripe-translatable) | |
 | [Langbuilder](https://github.com/dospuntocero/langbuilder) | terminal lang builder for silverstripe3 that creates en.yml files|
 | [TranslatableDataObject](https://github.com/unclecheese/TranslatableDataObject) | By Uncle Cheese | 
-
+| [Translatable-dataobject](https://github.com/bummzack/translatable-dataobject) | By Bummzack |
 
 
 ### Custom Fields
@@ -96,7 +96,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [TimepickerField](https://github.com/sheadawson/silverstripe-timepickerfield) | A time picker field based on jQuery UI Timepicker |
 | [Select2](https://github.com/sheadawson/silverstripe-select2) | Form field based on [select2](http://ivaynberg.github.com/select2/), which is an extension of the Chosen dropdown|
 | [Tagfield](https://github.com/chillu/silverstripe-tagfield) | |
-
+| [SortableFile](https://github.com/bummzack/sortablefile) | An extension that allows sorting of multiple attached images (extends UploadField) |
 
 ### Starter Themes
 
