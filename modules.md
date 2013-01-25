@@ -44,6 +44,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [SortableGridField](https://github.com/UndefinedOffset/SortableGridField) | Adds drag and drop functionality to SilverStripe 3's GridField |
 | [Blog-extension](https://github.com/tylerkidd/silverstripe-blog-extension) by Tyler | This "module" just extends the blog module and decorates the BlogEntry and BlogHolder models to allow managing your blog with the GridField instead of pages - even though they're still pages. |
 | [GridfieldAjaxRefresh](https://github.com/silverstripe-labs/silverstripe-gridfieldajaxrefresh) | Adds the ability to either automatically or manually refresh a SilverStripe GridField |
+| [GridfieldExtensions](https://github.com/ajshort/silverstripe-gridfieldextensions) | 2 components: `GridFieldAddExistingSearchButton` - a more advanced search form for adding items & `GridFieldOrderableRows` - drag and drop re-ordering of rows. |
 
 ### Other
 
