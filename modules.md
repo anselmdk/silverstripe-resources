@@ -51,7 +51,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | Module | Notes |
 |:---|:---|
 | [Newsletter](https://github.com/silverstripe-labs/silverstripe-newsletter) | See also [Newsletter Emogrify](https://packagist.org/packages/silverstripe/newsletter_emogrify), and [Newsletter, view archive](https://packagist.org/packages/silverstripe/newsletter_viewarchive)|
-
+| [Largeblog](https://github.com/icecaster/silverstripe-largeblog) | Customised modeladmin interface for managing Blog Entries on large silverstripe sites |
 
 ## Core Functionality Extension
 
@@ -62,9 +62,15 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | ShortCodes | Don't forget these. See this [tutorial](http://www.ssbits.com/tutorials/2010/2-4-using-short-codes-to-embed-a-youtube-video/) (for SS 2.4), and this [module](https://github.com/cwsoft/silverstripe-cwsoft-shortcode) (a collection of ShortCodes for SS3). |
 | [Sitemap](https://github.com/ajshort/silverstripe-sitemap) | Works with SS3 though the Readme says 2.x |
 | [Google Sitemaps](https://github.com/silverstripe-labs/silverstripe-googlesitemaps) | |
+| [Robots](https://github.com/tractorcow/silverstripe-robots) | Simple robots generation module |
 | [Versioned Files](https://github.com/ajshort/silverstripe-versionedfiles) | A module to allow for the replacement and version management of asset files |
 | REST | [Restfulserver](https://github.com/silverstripe/silverstripe-restfulserver) and [Restassured](https://github.com/silverstripe-labs/restassured) |
-
+| [ExcludeChildren](https://github.com/micschk/silverstripe-excludechildren) | Exclude children of configurable classes from showing up in the sitetree |
+| [VersionedGridfield](https://github.com/icecaster/silverstripe-versioned-gridfield) | This module provides a gridfield detail form, with the asscoiated actions required for managing versioned objects, eg SiteTree descendants. This comes in handy especially when using a modeladmin to manage parts of the sitetree. |
+| [Datelink](https://github.com/tractorcow/silverstripe-datelink) | Allows you to add wordpress style year/month URLs to time-sensitive sections of your website |
+| [Restricted Objects](https://github.com/nyeholt/silverstripe-restrictedobjects) | A SilverStripe module to lock down object access, for the CMS as well as non-page objects |
+| [Usertemplates](https://github.com/nyeholt/silverstripe-usertemplates) | A SilverStripe module for creating templates within the CMS that can override those defined in the theme, for both Layout and main templates | 
+| [Publishable Objects](https://github.com/nyeholt/silverstripe-publishableobjects) | A SilverStripe module for making arbitrary Data Objects publishable |
 
 ### Subsites
 
@@ -98,6 +104,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Select2](https://github.com/sheadawson/silverstripe-select2) | Form field based on [select2](http://ivaynberg.github.com/select2/), which is an extension of the Chosen dropdown|
 | [Tagfield](https://github.com/chillu/silverstripe-tagfield) | |
 | [SortableFile](https://github.com/bummzack/sortablefile) | An extension that allows sorting of multiple attached images (extends UploadField) |
+| [AutoCompleteField](https://github.com/tractorcow/silverstripe-autocomplete) | |
 
 ### Starter Themes
 
@@ -140,8 +147,16 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 ## Feeds
 | Module | Notes |
 |:---|:---|
-| [Twitter Feed](https://github.com/tylerkidd/silverstripe-twitter-feed) | |
 | [Vimeo Service](https://github.com/anselmdk/Silverstripe-Vimeo-Service-module/commits/ss3) | |
+
+
+## Social Media
+
+| Module | Notes |
+|:---|:---|
+| [Facebook SDK](https://github.com/tractorcow/silverstripe-facebook-sdk) | Simple Silverstripe wrapper for the facebook PHP SDK |
+| [Opengraph](https://github.com/tractorcow/silverstripe-opengraph) | Implementation of the Facebook Opengraph protocol for Silverstripe |
+| [Twitter Feed](https://github.com/tylerkidd/silverstripe-twitter-feed) | |
 
 
 ## Utilities
@@ -151,8 +166,11 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Silverstripe Tools](https://github.com/dimension27/silverstripe-tools) | Misc tools, including `BetterImage`, `FAQPage`, `StyledEmail` and `YoutubeShortCode` |
 | [Serverstatus](https://github.com/amoebas/silverstripe-serverstatus) | |
 | Emailing | Silverstripe core mailing is a little clunky (see [ticket](http://open.silverstripe.org/ticket/3427)), [SMTP Mailer module](https://github.com/xeraa/silverstripe-smtp), [Mailer](https://github.com/fullscreeninteractive/silverstripe-postmarkmailer) for [Postmark](http://postmarkapp.com), [Testmailer](https://github.com/sunnysideup/silverstripe-testmailer) _(forked by me)_, [Inline Styles Emailing](https://github.com/burnbright/silverstripe-inlinestylesemail) module, [Logging mailer](https://github.com/natmchugh/loggingmailer) _(I might have some improvements for this from the PHH app)_ |
+| [Email Helpers](https://github.com/markguinn/silverstripe-email-helpers) | Silverstripe extension containing SMTP mailer class and some other classes for HTML emails |
+| [Comments Notifications](https://github.com/tractorcow/silverstripe-comments-notifications) | Simple email notifications for comments posted against the Comments module |
 | [Framework Test](https://github.com/silverstripe-labs/silverstripe-frameworktest) | Aids core and module developers in testing their code against a set of sample data and behaviour. |
 | [Silverstripe Ipsum](https://github.com/sheadawson/silverstripe-ipsum) | A lorem ipsum text generator built on SilverStripe 3 |
+| [Syncrotron](https://github.com/nyeholt/silverstripe-syncrotron) | A SilverStripe module for performing automated synchronisation of data between systems |
 
 ## Ecommerce
 
@@ -172,6 +190,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [SilverTwit](https://github.com/silverstripe-australia/silvertwit) | An entire project. Probably some good examples on a SS3 web app |
 | [DMS](https://github.com/silverstripe-labs/silverstripe-dms) | Document Management System|
 | [Silverstripe Express](https://packagist.org/packages/silverstripe/express) | |
+| [Knowledgebase](https://github.com/tractorcow/silverstripe-knowledgebase) | Knowledge base module for silverstripe; Basic FAQ, categorisation, and article search (SS2.x) |
 
 
 ## Candidates for SS3 Upgrade
