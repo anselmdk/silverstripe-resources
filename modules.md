@@ -166,12 +166,31 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 |:---|:---|
 | [Silverstripe Tools](https://github.com/dimension27/silverstripe-tools) | Misc tools, including `BetterImage`, `FAQPage`, `StyledEmail` and `YoutubeShortCode` |
 | [Serverstatus](https://github.com/amoebas/silverstripe-serverstatus) | |
-| Emailing | Silverstripe core mailing is a little clunky (see [ticket](http://open.silverstripe.org/ticket/3427)), [SMTP Mailer module](https://github.com/xeraa/silverstripe-smtp), [Mailer](https://github.com/fullscreeninteractive/silverstripe-postmarkmailer) for [Postmark](http://postmarkapp.com), [Testmailer](https://github.com/sunnysideup/silverstripe-testmailer) _(forked by me)_, [Inline Styles Emailing](https://github.com/burnbright/silverstripe-inlinestylesemail) module, [Logging mailer](https://github.com/natmchugh/loggingmailer) _(I might have some improvements for this from the PHH app)_ |
-| [Email Helpers](https://github.com/markguinn/silverstripe-email-helpers) | Silverstripe extension containing SMTP mailer class and some other classes for HTML emails |
 | [Comments Notifications](https://github.com/tractorcow/silverstripe-comments-notifications) | Simple email notifications for comments posted against the Comments module |
 | [Framework Test](https://github.com/silverstripe-labs/silverstripe-frameworktest) | Aids core and module developers in testing their code against a set of sample data and behaviour. |
 | [Silverstripe Ipsum](https://github.com/sheadawson/silverstripe-ipsum) | A lorem ipsum text generator built on SilverStripe 3 |
 | [Syncrotron](https://github.com/nyeholt/silverstripe-syncrotron) | A SilverStripe module for performing automated synchronisation of data between systems |
+
+
+## Emailing
+
+Silverstripe core mailing is a little clunky (see [ticket](http://open.silverstripe.org/ticket/3427))
+
+| Module | Notes |
+|:---|:---|
+| [SMTP Mailer](https://github.com/xeraa/silverstripe-smtp) | |
+| [Mailer](https://github.com/fullscreeninteractive/silverstripe-postmarkmailer) | for [Postmark](http://postmarkapp.com) |
+| [Testmailer](https://github.com/sunnysideup/silverstripe-testmailer) | _(forked by me)_ |
+| [Inline Styles Emailing](https://github.com/burnbright/silverstripe-inlinestylesemail) | |
+| [Logging mailer](https://github.com/natmchugh/loggingmailer) | _(I might have some improvements for this from the PHH app)_ |
+| [Pop3Message](https://github.com/titledk/silverstripe-snippets/blob/master/Pop3Message.php) | Class for retrieving emails from a pop3 server and storing them locally (including attachments) |
+| [Email Helpers](https://github.com/markguinn/silverstripe-email-helpers) | Silverstripe extension containing SMTP mailer class and some other classes for HTML emails |
+
+
+
+
+
+
 
 ## Ecommerce
 
