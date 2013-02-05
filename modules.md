@@ -40,13 +40,14 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 
 | Module | Notes |
 |:---|:---|
-| [GridFieldRelationHandler](https://github.com/simonwelsh/silverstripe-GridFieldRelationHandler) | This module provides two GridField components that aid in managing relationships within SilverStripe. |
+| [GridFieldRelationHandler](https://github.com/simonwelsh/silverstripe-GridFieldRelationHandler) | This module provides two GridField components that aid in managing relationships within SilverStripe, the `GridFieldHasOneRelationHandler` (provides radio buttons for selecting the object that the has_one points to) and the `GridFieldManyRelationHandler` (provides check boxes for selecting the objects that a has_many or many_many point to) |
 | [GridFieldBulkEditingTools](https://github.com/colymba/GridFieldBulkEditingTools) | SilverStripe 3 GridField component set to facilitate bulk image upload, bulk record editing, unlinking and deleting. |
 | [SortableGridField](https://github.com/UndefinedOffset/SortableGridField) | Adds drag and drop functionality to SilverStripe 3's GridField |
 | [Blog-extension](https://github.com/tylerkidd/silverstripe-blog-extension) by Tyler | This "module" just extends the blog module and decorates the BlogEntry and BlogHolder models to allow managing your blog with the GridField instead of pages - even though they're still pages. |
 | [GridfieldAjaxRefresh](https://github.com/silverstripe-labs/silverstripe-gridfieldajaxrefresh) | Adds the ability to either automatically or manually refresh a SilverStripe GridField |
-| [GridfieldExtensions](https://github.com/ajshort/silverstripe-gridfieldextensions) | 2 components: `GridFieldAddExistingSearchButton` - a more advanced search form for adding items & `GridFieldOrderableRows` - drag and drop re-ordering of rows. |
+| [GridfieldExtensions](https://github.com/ajshort/silverstripe-gridfieldextensions) | 3 components: `GridFieldAddExistingSearchButton` - a more advanced search form for adding items & `GridFieldOrderableRows` - drag and drop re-ordering of rows, `GridFieldAddNewMultiClass` - lets the user select from a list of classes to create a new record from |
 | [GridfieldDetailFormAddNew](https://github.com/webbuilders-group/GridFieldDetailFormAddNew) | Gives CMS users the ability to add a new item directly from the GridField DetailForm |
+| [GridfieldGalleryTheme](https://github.com/colymba/GridFieldGalleryTheme) | SS3 GridField component that attempt to change the GridField layout into an basic gallery view. (Still in dev) |
 
 ### Other
 
@@ -107,6 +108,8 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Tagfield](https://github.com/chillu/silverstripe-tagfield) | |
 | [SortableFile](https://github.com/bummzack/sortablefile) | An extension that allows sorting of multiple attached images (extends UploadField) |
 | [AutoCompleteField](https://github.com/tractorcow/silverstripe-autocomplete) | |
+| [SimpleTreeDropdownField](https://github.com/drzax/silverstripe-bits/tree/master/SimpleTreeDropdownField) | A simple, but flexible alternative for use where the TreeDropdownField isn't suitable. |
+
 
 ### Starter Themes
 
@@ -171,6 +174,8 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Framework Test](https://github.com/silverstripe-labs/silverstripe-frameworktest) | Aids core and module developers in testing their code against a set of sample data and behaviour. |
 | [Silverstripe Ipsum](https://github.com/sheadawson/silverstripe-ipsum) | A lorem ipsum text generator built on SilverStripe 3 |
 | [Syncrotron](https://github.com/nyeholt/silverstripe-syncrotron) | A SilverStripe module for performing automated synchronisation of data between systems |
+| [Subtypeable](https://github.com/drzax/silverstripe-bits/tree/master/Subtypeable) | A DataExtension which provides a get_class_dropdown method to DataObjects which can be used to display a list of possible object subtypes in the CMS. |
+| [URLDataObject](https://github.com/drzax/silverstripe-bits/tree/master/URLDataObject) | A DataExtension which gives any DataObject a unique URLDataObject field similar to all descendents of SiteTree. |
 
 
 ## Emailing
