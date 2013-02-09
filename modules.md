@@ -77,6 +77,8 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Auth External](https://github.com/hamishcampbell/silverstripe-auth-external) | This module enables you to use external authentication sources for password verification. At the moment this module has 4 drivers. LDAP, FTP, IMAP and HTTPBASIC. The IMAP driver also supports POP3. All drivers support SSL |
 | [Optimistic Locking](https://github.com/svandragt/silverstripe-optimisticlocking) | Prevent overwriting data by blocking the save process when the data changed since retrieval (using a timestamp) |
 | [Silverstripe Lite](https://github.com/dospuntocero/silverstripecms-lite) | simple CMS interface for final clients |
+| [Viewcounter](https://github.com/sheadawson/silverstripe-viewcounter) | Tracks views for any DataObject, can be used to show number of hits or calculate most popular content |
+
 
 ### Subsites
 
@@ -125,6 +127,9 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [SortableFile](https://github.com/bummzack/sortablefile) | An extension that allows sorting of multiple attached images (extends UploadField) |
 | [AutoCompleteField](https://github.com/tractorcow/silverstripe-autocomplete) | |
 | [SimpleTreeDropdownField](https://github.com/drzax/silverstripe-bits/tree/master/SimpleTreeDropdownField) | A simple, but flexible alternative for use where the TreeDropdownField isn't suitable. |
+| [ZenautocompleteField](https://github.com/sheadawson/silverstripe-zenautocompletefield) | A basic autocomplete text field using jquery ui |
+| [TimepickerField](https://github.com/sheadawson/silverstripe-timepickerfield) | A time picker field based on jQuery UI Timepicker By François Gélinas <http://fgelinas.com/code/timepicker/> |
+| [Dynamiclists](https://github.com/sheadawson/silverstripe-dynamiclists) | User controlled data lists that can be used in form fields |
 
 
 ### Starter Themes
@@ -242,6 +247,7 @@ Silverstripe core mailing is a little clunky (see [ticket](http://open.silverstr
 | [DMS](https://github.com/silverstripe-labs/silverstripe-dms) | Document Management System|
 | [Silverstripe Express](https://packagist.org/packages/silverstripe/express) | |
 | [Knowledgebase](https://github.com/tractorcow/silverstripe-knowledgebase) | Knowledge base module for silverstripe; Basic FAQ, categorisation, and article search (SS2.x) |
+| [Silverstripe Ipsum](https://github.com/sheadawson/silverstripe-ipsum) | A lorem ipsum text generator built on SilverStripe 3 |
 
 
 ## Candidates for SS3 Upgrade
