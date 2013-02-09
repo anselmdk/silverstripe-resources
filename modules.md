@@ -75,6 +75,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Usertemplates](https://github.com/nyeholt/silverstripe-usertemplates) | A SilverStripe module for creating templates within the CMS that can override those defined in the theme, for both Layout and main templates | 
 | [Publishable Objects](https://github.com/nyeholt/silverstripe-publishableobjects) | A SilverStripe module for making arbitrary Data Objects publishable |
 | [Auth External](https://github.com/hamishcampbell/silverstripe-auth-external) | This module enables you to use external authentication sources for password verification. At the moment this module has 4 drivers. LDAP, FTP, IMAP and HTTPBASIC. The IMAP driver also supports POP3. All drivers support SSL |
+| [Optimistic Locking](https://github.com/svandragt/silverstripe-optimisticlocking) | Prevent overwriting data by blocking the save process when the data changed since retrieval (using a timestamp) |
 
 ### Subsites
 
@@ -94,14 +95,27 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Translatable-dataobject](https://github.com/bummzack/translatable-dataobject) | By Bummzack |
 
 
+
+### Form Extensions
+
+| Module | Notes |
+|:---|:---|
+| [Bootstrap Forms](https://github.com/unclecheese/silverstripe-bootstrap-forms) | Allows the creation of forms compatible with the Twitter Bootstrap CSS framework in SilverStripe |
+| [Foundation Forms](https://github.com/ryanwachtl/silverstripe-foundation-forms) | SilverStripe 3 Forms Compatible with Zurb Foundation Framework |
+| [Requiredfieldscms](https://github.com/svandragt/silverstripe-requiredfieldscms) | This DataExtension reads the required fields for a DataObject and will add a 'required' class to these fields |
+| [Hiddenfields](https://github.com/svandragt/silverstripe-hiddenfields) | Takes form fields you specified through $hidden_fields and hides them from the edit form |
+| [Manymessage](https://github.com/svandragt/silverstripe-manymessage) | This DataExtension adds a notice to CMS form when relations are not available before the form is saved by the user |
+| [Description](https://github.com/svandragt/silverstripe-description) | Autopopulate field descriptions to form fields |
+
+
+
+
 ### Custom Fields
 
 | Module | Notes |
 |:---|:---|
 | [Markdowneditorfield](https://github.com/wolfv/silverstripe-markdowneditorfield) | |
 | [HTMLField](https://github.com/timonr/silverstripe-htmlfield-module) | A CodeMirror-powered HTML field |
-| [Bootstrap Forms](https://github.com/unclecheese/silverstripe-bootstrap-forms) | Allows the creation of forms compatible with the Twitter Bootstrap CSS framework in SilverStripe |
-| [Foundation Forms](https://github.com/ryanwachtl/silverstripe-foundation-forms) | SilverStripe 3 Forms Compatible with Zurb Foundation Framework |
 | [MultiValueField](https://github.com/nyeholt/silverstripe-multivaluefield) | A fieldtype that makes it possible to store arrays of data (serialised) in the DB. Useful if you have many fields that you don't want to normalise out over many joins |
 | [QuickAddNew](https://github.com/sheadawson/silverstripe-quickaddnew) | A decorator for a form field that manages as has_one relation, to allow adding a new object on the fly |
 | [TimepickerField](https://github.com/sheadawson/silverstripe-timepickerfield) | A time picker field based on jQuery UI Timepicker |
