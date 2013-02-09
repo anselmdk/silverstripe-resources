@@ -74,6 +74,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Restricted Objects](https://github.com/nyeholt/silverstripe-restrictedobjects) | A SilverStripe module to lock down object access, for the CMS as well as non-page objects |
 | [Usertemplates](https://github.com/nyeholt/silverstripe-usertemplates) | A SilverStripe module for creating templates within the CMS that can override those defined in the theme, for both Layout and main templates | 
 | [Publishable Objects](https://github.com/nyeholt/silverstripe-publishableobjects) | A SilverStripe module for making arbitrary Data Objects publishable |
+| [Auth External](https://github.com/hamishcampbell/silverstripe-auth-external) | This module enables you to use external authentication sources for password verification. At the moment this module has 4 drivers. LDAP, FTP, IMAP and HTTPBASIC. The IMAP driver also supports POP3. All drivers support SSL |
 
 ### Subsites
 
