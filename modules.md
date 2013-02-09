@@ -76,6 +76,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Publishable Objects](https://github.com/nyeholt/silverstripe-publishableobjects) | A SilverStripe module for making arbitrary Data Objects publishable |
 | [Auth External](https://github.com/hamishcampbell/silverstripe-auth-external) | This module enables you to use external authentication sources for password verification. At the moment this module has 4 drivers. LDAP, FTP, IMAP and HTTPBASIC. The IMAP driver also supports POP3. All drivers support SSL |
 | [Optimistic Locking](https://github.com/svandragt/silverstripe-optimisticlocking) | Prevent overwriting data by blocking the save process when the data changed since retrieval (using a timestamp) |
+| [Silverstripe Lite](https://github.com/dospuntocero/silverstripecms-lite) | simple CMS interface for final clients |
 
 ### Subsites
 
