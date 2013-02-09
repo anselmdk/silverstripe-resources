@@ -194,6 +194,15 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [URLDataObject](https://github.com/drzax/silverstripe-bits/tree/master/URLDataObject) | A DataExtension which gives any DataObject a unique URLDataObject field similar to all descendents of SiteTree. |
 
 
+## External data
+
+| Module | Notes |
+|:---|:---|
+| [External Content](https://github.com/nyeholt/silverstripe-external-content) | The base external content module |
+| [Static Site Connector](https://github.com/sminnee/silverstripe-staticsiteconnector) | Connector plugin for the SilverStripe External Content module that uses web scraping to import content. |
+
+
+
 ## Emailing
 
 Silverstripe core mailing is a little clunky (see [ticket](http://open.silverstripe.org/ticket/3427))
