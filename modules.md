@@ -31,8 +31,6 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Disqus](https://github.com/silverstripesk/silverstripe-disqus) | |
 
 
-
-
 ## Backend
 
 ### GridField
@@ -159,6 +157,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Facebook SDK](https://github.com/tractorcow/silverstripe-facebook-sdk) | Simple Silverstripe wrapper for the facebook PHP SDK |
 | [Opengraph](https://github.com/tractorcow/silverstripe-opengraph) | Implementation of the Facebook Opengraph protocol for Silverstripe |
 | [Twitter Feed](https://github.com/tylerkidd/silverstripe-twitter-feed) | |
+| [Connect backend to Twitter](https://github.com/Firesphere/silverstripe-social) | |
 
 
 ## Utilities
