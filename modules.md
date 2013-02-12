@@ -157,7 +157,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Facebook SDK](https://github.com/tractorcow/silverstripe-facebook-sdk) | Simple Silverstripe wrapper for the facebook PHP SDK |
 | [Opengraph](https://github.com/tractorcow/silverstripe-opengraph) | Implementation of the Facebook Opengraph protocol for Silverstripe |
 | [Twitter Feed](https://github.com/tylerkidd/silverstripe-twitter-feed) | |
-| [Connect backend to Twitter](https://github.com/Firesphere/silverstripe-social) | |
+| [Connect backend to Twitter](https://github.com/Firesphere/silverstripe-social) | This is not a full "user-connect" plugin. It just plugs into the backend to allow backend actions to be published to Social Media. Updates asap. |
 
 
 ## Utilities
