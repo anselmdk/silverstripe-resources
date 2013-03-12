@@ -3,6 +3,9 @@
 This is a curated list of interesting SS3 modules. I'll try my best to keep it up to date. If you have anything to add or change, please do so by submitting a ticket or a pull request.
 
 
+**NOTE (march 2013):** This will soon become obsolete due to the great work Silverstripe is doing on their extension library. You can see a sneak here: <http://extensions.andrewshort.name>. Make sure to check there for moddules as well!
+
+
 
 ## Frontend
 
