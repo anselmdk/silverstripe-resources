@@ -1,8 +1,10 @@
 # Resources
 
-## Themes and modules through Packagist
+## Themes and modules on Packagist
 
-Search like this: <https://packagist.org/search/?tags[]=theme&tags[]=silverstripe>
+Available here: <http://addons.silverstripe.org>
+
+...or directlly on Packagist like this: <https://packagist.org/search/?tags[]=theme&tags[]=silverstripe>
 
 
 ## Other Resources

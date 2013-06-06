@@ -3,8 +3,7 @@
 This is a curated list of interesting SS3 modules. I'll try my best to keep it up to date. If you have anything to add or change, please do so by submitting a ticket or a pull request.
 
 
-**NOTE (march 2013):** This will soon become obsolete due to the great work Silverstripe is doing on their extension library. You can see a sneak here: <http://extensions.andrewshort.name>. Make sure to check there for moddules as well!
-
+**NOTE:** <http://addons.silverstripe.org> has become the go-to place for searching for SilverStripe addons and themes. As it will develop, this list will become of less interest. Not all modules are on Packagist (and thus on <http://addons.silverstripe.org>) yet though, so it's recommendable to have a look at both, and also to do your own research.
 
 
 ## Frontend
@@ -17,7 +16,6 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | Galleries | [Foldergallery module for SS3](https://github.com/cwsoft/silverstripe-cwsoft-foldergallery), Frank Mullenger's [Simple Gallery](https://github.com/frankmullenger/silverstripe-simplegallery), [DisplayAnything3](https://github.com/codem/DisplayAnything3)  |
 | [Dataobject as Pages](https://github.com/dospuntocero/DOArticles) | This is a simple module for adding dataobject as pages functionality on silverstripe 3, can be used for news, products or anything you can think of that doesnt need to appear in the sitetree. |
 | [Slideshow](https://github.com/dospuntocero/Slideshow) | Slideshow module for ss3 based on jQuery Cycle plugin. |
-| [Dashboard](https://github.com/unclecheese/silverstripe-dashboard) | The Dashbaord module provides a splash page for the CMS in SilverStripe 3 with configurable widgets that display relevant information. |
 | [Event Calendar](https://github.com/unclecheese/EventCalendar) | |
 | [Polls](https://github.com/mateusz/silverstripe-polls) | |
 | [iFrame](https://github.com/silverstripe-labs/silverstripe-iframe) | Add an iFrame pagetype to SilverStripe, to show content from another website |
@@ -36,6 +34,19 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 
 ## Backend
 
+
+### CMS Customization
+
+| Module | Notes |
+|:---|:---|
+| [Dashboard](https://github.com/unclecheese/silverstripe-dashboard) | The Dashbaord module provides a splash page for the CMS in SilverStripe 3 with configurable widgets that display relevant information. |
+| [Widgets](https://github.com/silverstripe/silverstripe-widgets) | Previously I've used other branches, but it seems, this one is the current now |
+| [Silverstripe Lite](https://github.com/dospuntocero/silverstripecms-lite) | simple CMS interface for final clients |
+| [Menu Manager](https://github.com/heyday/silverstripe-menumanager) | The menu management module is for creating custom menu structures when the site tree hierarchy just won't do. |
+| [Custom Menus](https://github.com/i-lateral/silverstripe-custommenus) | Adds the ability to create multiple menu's in the CMS and then render them using a custom control |
+| [insideManual](https://github.com/knsqnt/SilverStripe_InsideManual) | Add a manual to your SilverStripe backend and assign pagetypes to your chapters, to make a help tab appear whenever someone works on this kind of pagetype |
+| [usertemplates](https://github.com/nyeholt/silverstripe-usertemplates) | A SilverStripe module for creating templates within the CMS that can override those defined in the theme, for both Layout and main templates |
+
 ### GridField
 
 
@@ -49,6 +60,10 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [GridfieldExtensions](https://github.com/ajshort/silverstripe-gridfieldextensions) | 3 components: `GridFieldAddExistingSearchButton` - a more advanced search form for adding items & `GridFieldOrderableRows` - drag and drop re-ordering of rows, `GridFieldAddNewMultiClass` - lets the user select from a list of classes to create a new record from |
 | [GridfieldDetailFormAddNew](https://github.com/webbuilders-group/GridFieldDetailFormAddNew) | Gives CMS users the ability to add a new item directly from the GridField DetailForm |
 | [GridfieldGalleryTheme](https://github.com/colymba/GridFieldGalleryTheme) | SS3 GridField component that attempt to change the GridField layout into an basic gallery view. (Still in dev) |
+| [InlineGridField](https://github.com/stojg/inlinegridfield) | excel style gridfield |
+| [BetterButtons](https://github.com/unclecheese/silverstripe-gridfield-betterbuttons) | |
+| [Pickerfield](https://github.com/briceburg/silverstripe-pickerfield) | SilverStripe 3 GridField based management of has_one , has_many , and many_many relationship selection |
+
 
 ### Other
 
@@ -62,7 +77,6 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 
 | Module | Notes |
 |:---|:---|
-| [Widgets](https://github.com/silverstripe/silverstripe-widgets) | Previously I've used other branches, but it seems, this one is the current now |
 | ShortCodes | Don't forget these. See this [tutorial](http://www.ssbits.com/tutorials/2010/2-4-using-short-codes-to-embed-a-youtube-video/) (for SS 2.4), and this [module](https://github.com/cwsoft/silverstripe-cwsoft-shortcode) (a collection of ShortCodes for SS3). |
 | [Sitemap](https://github.com/ajshort/silverstripe-sitemap) | Works with SS3 though the Readme says 2.x |
 | [Google Sitemaps](https://github.com/silverstripe-labs/silverstripe-googlesitemaps) | |
@@ -76,9 +90,11 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Usertemplates](https://github.com/nyeholt/silverstripe-usertemplates) | A SilverStripe module for creating templates within the CMS that can override those defined in the theme, for both Layout and main templates | 
 | [Publishable Objects](https://github.com/nyeholt/silverstripe-publishableobjects) | A SilverStripe module for making arbitrary Data Objects publishable |
 | [Auth External](https://github.com/hamishcampbell/silverstripe-auth-external) | This module enables you to use external authentication sources for password verification. At the moment this module has 4 drivers. LDAP, FTP, IMAP and HTTPBASIC. The IMAP driver also supports POP3. All drivers support SSL |
+| [opauth](https://github.com/BetterBrief/silverstripe-opauth) | |
 | [Optimistic Locking](https://github.com/svandragt/silverstripe-optimisticlocking) | Prevent overwriting data by blocking the save process when the data changed since retrieval (using a timestamp) |
-| [Silverstripe Lite](https://github.com/dospuntocero/silverstripecms-lite) | simple CMS interface for final clients |
 | [Viewcounter](https://github.com/sheadawson/silverstripe-viewcounter) | Tracks views for any DataObject, can be used to show number of hits or calculate most popular content |
+| Redirection of Legacy URLS | [old-urls](https://github.com/webtorque7/old-urls) or [linkmapping](https://github.com/ajshort/silverstripe-linkmapping) |
+
 
 
 ### Subsites
@@ -119,6 +135,7 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | Module | Notes |
 |:---|:---|
 | [Markdowneditorfield](https://github.com/wolfv/silverstripe-markdowneditorfield) | |
+| [Markdown](https://github.com/UndefinedOffset/silverstripe-markdown) | SilverStripe module that adds a field and a data type that allows for Markdown editing, uses the github api to render the html |
 | [HTMLField](https://github.com/timonr/silverstripe-htmlfield-module) | A CodeMirror-powered HTML field |
 | [MultiValueField](https://github.com/nyeholt/silverstripe-multivaluefield) | A fieldtype that makes it possible to store arrays of data (serialised) in the DB. Useful if you have many fields that you don't want to normalise out over many joins |
 | [QuickAddNew](https://github.com/sheadawson/silverstripe-quickaddnew) | A decorator for a form field that manages as has_one relation, to allow adding a new object on the fly |
@@ -130,13 +147,12 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [ZenautocompleteField](https://github.com/sheadawson/silverstripe-zenautocompletefield) | A basic autocomplete text field using jquery ui |
 | [TimepickerField](https://github.com/sheadawson/silverstripe-timepickerfield) | A time picker field based on jQuery UI Timepicker By François Gélinas <http://fgelinas.com/code/timepicker/> |
 | [Dynamiclists](https://github.com/sheadawson/silverstripe-dynamiclists) | User controlled data lists that can be used in form fields |
+| [Colorpicker](https://github.com/tractorcow/silverstripe-colorpicker) | or by [UndefinedOffset](https://github.com/UndefinedOffset/silverstripe-colorpicker), or [mlewis-everley](https://github.com/mlewis-everley/silverstripe-colorpicker) |
+| [Timezone Dropdownfield](https://github.com/silverstripe-labs/silverstripe-timedropdownfield) | |
+| [Timezone Awareness](https://github.com/silverstripe-labs/silverstripe-timezoneawareness) | _ss2.x_|
+| [i18enum](https://github.com/uniun/silverstripe-i18nenum) | Translatable Enum fieldtype |
+| [htmlfield](https://github.com/ryanwachtl/silverstripe-htmlfield-module) | Provides a CodeMirror-powered field for pleasant editing of raw HTML code. |
 
-
-### Starter Themes
-
-| Module | Notes |
-|:---|:---|
-| [Silverstripe Foundation](https://github.com/ryanwachtl/silverstripe-foundation) | A SilverStripe theme based on Foundation by Ryan Wachtl. I imageine this being good together with his [Foundation Forms](https://github.com/ryanwachtl/silverstripe-foundation-forms) module and his [Foundation Blog](https://github.com/ryanwachtl/silverstripe-foundation-blog) templates|
 
 
 
@@ -170,11 +186,31 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Retina Images](https://github.com/dospuntocero/RetinaImages) | |
 
 
+## PDF Rendering
+
+
+| Module | Notes |
+|:---|:---|
+| [wkhtmltopdf](https://github.com/heyday/silverstripe-wkhtmltopdf) | |
+| [topdf](https://github.com/mparkhill/silverstripe-tcpdf) | |
+| [dompdf](https://github.com/burnbright/silverstripe-dompdf) | |
+
+
 ## Feeds
 | Module | Notes |
 |:---|:---|
 | [Vimeo Service](https://github.com/anselmdk/Silverstripe-Vimeo-Service-module/commits/ss3) | |
 
+
+## Data Handling/Presentation
+
+
+| Module | Notes |
+|:---|:---|
+| [DMS](https://github.com/silverstripe-labs/silverstripe-dms) | Document Management System|
+| [registry](https://github.com/silverstripe-labs/silverstripe-registry/blob/master/docs/en/index.md) | This module allows a website user to search, find details for, and export search results for a particular type of data. One example this could be used for is a listing of staff members. 
+| [sitemedia](https://github.com/briceburg/silverstripe-sitemedia) | Add and manage a common library of Media from your Pages and DataObjects |
+| [Sections](https://github.com/NobrainerWeb/Silverstripe-Section-Module) | Split your page content into manageable blocks/sections of content, each with their own template |
 
 ## Social Media
 
@@ -237,6 +273,24 @@ Silverstripe core mailing is a little clunky (see [ticket](http://open.silverstr
 
 
 
+## Performance
+
+
+| Module | Notes |
+|:---|:---|
+| [Dynamic Cache](https://github.com/tractorcow/silverstripe-dynamiccache) | Simple on the fly caching of dynamic content for Silverstripe |
+| [staticpublishqueue](https://github.com/silverstripe-labs/silverstripe-staticpublishqueue) | This module allows you to build static HTML caches of every page (for increased security and performance) |
+| [Xhprof](https://github.com/titledk/silverstripe-xhprof/) | A ui can be found on http://xhprof.io |
+
+
+## Development Phase
+
+| Module | Notes |
+|:---|:---|
+| [Securetest](https://github.com/tractorcow/silverstripe-securetest) | Ensures that non-live websites are only accessible with a valid user login  |
+
+
+
 
 
 ## Complete Systems (Sites/Webapps)
@@ -245,7 +299,6 @@ Silverstripe core mailing is a little clunky (see [ticket](http://open.silverstr
 |:---|:---|
 | [SilverTicket](https://github.com/cam-findlay/silvertripe-silverticket) | |
 | [SilverTwit](https://github.com/silverstripe-australia/silvertwit) | An entire project. Probably some good examples on a SS3 web app |
-| [DMS](https://github.com/silverstripe-labs/silverstripe-dms) | Document Management System|
 | [Silverstripe Express](https://packagist.org/packages/silverstripe/express) | |
 | [Knowledgebase](https://github.com/tractorcow/silverstripe-knowledgebase) | Knowledge base module for silverstripe; Basic FAQ, categorisation, and article search (SS2.x) |
 | [Silverstripe Ipsum](https://github.com/sheadawson/silverstripe-ipsum) | A lorem ipsum text generator built on SilverStripe 3 |

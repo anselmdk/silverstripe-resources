@@ -8,9 +8,9 @@ A collection of resources for Silverstripe 3:
   * [Emailing](https://github.com/anselmdk/ss3-resources/blob/master/topics/emailing.md)
 
 
+...and other - see filestructure.
+
+
 **Please Contribute!**
 
 
-## TODOS
-
-This is basically a copy of an internal list (copied 7th Jan 2013), so it needs some organization.
