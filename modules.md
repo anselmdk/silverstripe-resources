@@ -152,6 +152,8 @@ This is a curated list of interesting SS3 modules. I'll try my best to keep it u
 | [Timezone Awareness](https://github.com/silverstripe-labs/silverstripe-timezoneawareness) | _ss2.x_|
 | [i18enum](https://github.com/uniun/silverstripe-i18nenum) | Translatable Enum fieldtype |
 | [htmlfield](https://github.com/ryanwachtl/silverstripe-htmlfield-module) | Provides a CodeMirror-powered field for pleasant editing of raw HTML code. |
+| [i18-fieldtypes](https://github.com/ivoba/silverstripe-i18n-fieldtypes) | better i18n fieldtypes for currency & date |
+
 
 
 
