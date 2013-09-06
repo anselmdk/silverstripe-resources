@@ -21,7 +21,7 @@ class GridfieldPageSnippet extends Page {
 			new GridFieldDeleteAction('unlinkrelation')
 		);
 	
-		$gridfield = new GridField("Products", "Product", $this->Products(), $gridFieldConfig);
+		$gridfield = new GridField('Products', 'Product', $this->Products(), $gridFieldConfig);
 		$fields->addFieldToTab('Root.Products', $gridfield);
 		return $fields;
 	}
@@ -73,7 +73,7 @@ class BasePageSnippet_Product extends DataObject {
 		);
 		$gridFieldConfig->removeComponentsByType('GridFieldAddNewButton');
 	
-		$gridfield = new GridField("Pages", "Pages", $this->Pages(), $gridFieldConfig);
+		$gridfield = new GridField('Pages', 'Pages', $this->Pages(), $gridFieldConfig);
 		$fields->addFieldToTab('Root.Pages', $gridfield);
 		return $fields;
 	}
