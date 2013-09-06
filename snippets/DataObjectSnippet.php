@@ -31,9 +31,9 @@ class DataObjectSnippet extends DataObject {
 		"Name" => "Name Description"
 	);
 	public static $summary_fields = array(
-		"Name" => "Name", 
-		"Parent.Title", 
-		"TinyThumbPhoto" => "Thumbnail"
+		'Name' => 'Name', 
+		'Parent.Title', 
+		'TinyThumbPhoto' => 'Thumbnail'
 	); 
 
 	//CRUD settings
